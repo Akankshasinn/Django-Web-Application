@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+
+<h2>Contact Messages</h2>
+
+{% for msg in messages %}
+    <p>Name: {{ msg.name }}</p>
+    <p>Email: {{ msg.email }}</p>
+    <p>Message: {{ msg.message }}</p>
+    <hr>
+{% empty %}
+    <p>No messages yet.</p>
+{% endfor %}
+
+
+<h2>Send Message</h2>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <input type="text" name="name" placeholder="Your Name"><br><br>
+
+    <input type="email" name="email" placeholder="Your Email"><br><br>
+
+    <textarea name="message" placeholder="Your Message"></textarea><br><br>
+
+    <button type="submit">Send</button>
+</form>
+
+
+</body>
+</html>

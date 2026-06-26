@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+h1 {
+    margin-top: 150px;
+    font-size: 50px;
+}
+.success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
