@@ -28,3 +28,6 @@ A Django-based web application with product management, contact form, database i
    python manage.py runserver
 4. Open:
 http://127.0.0.1:8000/
+## Screenshot
+
+![Django Web Application Screenshot](Screenshot%202026-06-25%20202456.png)
