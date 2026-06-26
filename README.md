@@ -30,4 +30,4 @@ A Django-based web application with product management, contact form, database i
 http://127.0.0.1:8000/
 ## Screenshot
 
-![Django Web Application Screenshot](./Screenshot%202026-06-25%20202256.png)
+Screenshot 2026-06-25 122417.png
