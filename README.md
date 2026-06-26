@@ -30,4 +30,4 @@ A Django-based web application with product management, contact form, database i
 http://127.0.0.1:8000/
 ## Screenshot
 
-Screenshot 2026-06-25 122417.png
+https://github.com/Akankshasinn/Django-Web-Application/blob/master/Screenshot%202026-06-25%20122417.png
